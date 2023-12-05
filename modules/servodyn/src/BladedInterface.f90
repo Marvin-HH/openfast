@@ -107,7 +107,7 @@ MODULE BladedInterface
 #ifdef STATIC_DLL_LOAD
    INTEGER(IntKi), PARAMETER    :: MaxLoggingChannels = 0
 #else
-   INTEGER(IntKi), PARAMETER    :: MaxLoggingChannels = 300
+   INTEGER(IntKi), PARAMETER    :: MaxLoggingChannels = 999
 #endif
 
    !! GH_DISCON_SIMULATION_STATUS    - Flag returned by simulation from GetSimulationStatus.  Descriptions taken from the user manual.
